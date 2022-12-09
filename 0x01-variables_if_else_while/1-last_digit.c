@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 /**
- * main-check
- * 
-/* betty style doc for function main goes there */
+ * main - check chekers
+ * This program will assign a random number to the variable n
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
@@ -17,6 +17,5 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, n % 10);
 	else
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
-	/* your code goes there */
 	return (0);
 }
