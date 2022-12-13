@@ -19,6 +19,7 @@ printf("%d\n", i);
 }
 }
 else if (n >= 98)
+iiiii
 {
 for (j = n; j >= 98; j--)
 {
